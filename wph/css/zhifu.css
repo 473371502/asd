@@ -1,0 +1,262 @@
+*{margin:0px;padding:0px;border:0px;}
+li{
+	list-style: none;
+}
+i{
+	font-style: normal;
+}
+a{
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+p{
+	font-family: "微软雅黑";
+}
+.top1{
+	height:25px;
+	width:100%;
+	background:#f5f5f5;
+}
+.center{
+	width: 1000px;
+	margin:0 auto;
+}
+.top1 ul{
+	display: block;
+	float: right;
+}
+.top1 ul li{
+	float: left;
+	line-height: 25px;
+	padding: 0px 14px;
+	position: relative;
+}
+.top1 ul li a{
+	font-size: 12px;
+	color: #666666;
+}
+.top1 ul .r2{
+	display: none;
+}
+.top1 ul .q1:after{
+	position: absolute;
+	top:7px;
+	width: 1px;
+	height: 12px;
+	background: #666666;
+	content:'';
+	right:4px;
+	z-index: 5;
+	-webkit-transform:rotate(30deg);
+}
+.top1 ul .q1 .shoucang{
+	height: 62px;
+	position: absolute;
+	top:25px;
+	left: 0px;
+	text-align: center;
+	overflow: hidden;
+	border:1px solid #ccc;
+	border-top:1px solid #fff;
+	background: #fff;
+	display: none;
+}
+.top1 ul .q1:hover .shoucang{
+	display: block;
+}
+.top1 ul .q1 .huiyuan{
+	width: 65px;
+	height: 85px;
+	position: absolute;
+	top:25px;
+	left: 0px;
+	text-align: center;
+	overflow: hidden;
+	border:1px solid #ccc;
+	border-top:1px solid #fff;
+	background: #fff;
+	display: none;
+	padding: 0px 11px;
+}
+.top1 ul .q1:hover .huiyuan{
+	display: block;
+}
+.top1 ul .q1 .kehu{
+	width: 65px;
+	height: 85px;
+	position: absolute;
+	top:25px;
+	left: 0px;
+	text-align: center;
+	overflow: hidden;
+	border:1px solid #ccc;
+	border-top:1px solid #fff;
+	background: #fff;
+	display: none;
+	padding: 0px 11px;
+}
+.top1 ul .q1:hover .kehu{
+	display:block;
+}
+.top1 ul .q1 .shoujiban{
+	position: absolute;
+	width: 160px;
+	height: 189px;
+	top:25px;
+	left: -97px;
+	background: #fff;
+	z-index: 10;
+	text-align: center;
+	overflow: hidden;
+	display: none;
+	border:1px solid #ccc;
+	border-top:1px solid #fff;
+}
+.top1 ul .q1 .shoujiban img{
+	width: 140px;
+	height: 140px;
+	padding-top: 7px;
+}
+.top1 ul .q1:hover .shoujiban{
+	display: block;
+}
+.top1 ul .q1 span a:hover{
+	color:red;
+}
+.top1 ul .q1 p a:hover{
+	color:red;
+}
+.top1 ul li:hover{
+	background: #fff;
+}
+.top1 ul li:hover:after{
+	display: none;
+}
+.top2{
+	height: 100px;
+	width:100%;
+	border-bottom: 2px solid #f10180;
+}
+.top2 .box1{
+	width: 417px;
+	height: 100px;
+	background: url("../img01/1470411050559.png") no-repeat;
+	background-size: 76%;
+	float: left;
+}
+.top2 .box2{
+	width: 150px;
+	height: 100px;
+	background: url("../img01/1466131264367.png") no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.top2 .box3{
+	width: 150px;
+	height: 100px;
+	background: url("../img01/1466131266290.png") no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.top2 .box4{
+	width: 150px;
+	height: 100px;
+	background: url("../img01/1466131268726.png") no-repeat;
+	background-size: 100%;
+	float: left;
+}
+.top2 .box5{
+	width: 125px;
+	height: 100px;
+	float: left;
+	text-align: right;
+	position: relative;
+}
+.top2 .box5 a{
+	font-size: 15px;
+	font-style: normal;
+	color:#676767;
+	line-height: 123px;
+}
+.top2 .box5 i{
+	position: absolute;
+	top: 46px;
+	left: 21px;
+	display: block;
+	width: 23px;
+	height: 27px;
+	background:url("../img01/header.png") no-repeat 2px -75px;
+	background-size: 820%;
+}
+.top2 .box5 b{
+	display: block;
+	width: 16px;
+	height: 16px;
+	color: #fff;
+	background: #f10180;
+	text-align: center;
+	line-height: 16px;
+	position: absolute;
+	top:-2px;
+	right: -5px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.top3{
+	height: 50px;
+}
+.top3 p{
+	line-height: 50px;
+	font-size: 25px;
+}
+.top4{
+	height:500px;
+}
+.top4 .box1{
+	height: 38px;
+	background: #f9f9f9;
+	border-left: 2px solid #f10180;
+}
+.top4 li{
+	float: right;
+	padding: 0px 40px;
+	line-height: 38px;
+	font-family: "微软雅黑";
+}
+.top4 .box2 li{
+	line-height: 110px;
+}
+.top4 .z1{
+	float: left;
+	color:#f10180;
+}
+.top4 .z1 img{
+	height: 110px;
+	width: 90px;
+	float: left;
+}
+.top4 .box2{
+	border:1px solid #ccc;
+	width: 100%;
+	height: auto;
+}
+.top4 .box2-1{
+	height: 110px;
+	width: 95%;
+	background: #f9f9f9;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+.boxb{
+	float: left;
+	width: auto;
+	height: 110px;
+	line-height: 45px;
+}
+.top5{
+	height: 175px;
+}
+.top5 img{
+	width: 100%;
+	height: 100%;
+}

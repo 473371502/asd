@@ -1,0 +1,199 @@
+*{margin:0px;padding:0px;border:0px;}
+p{
+	font-family: "微软雅黑";
+}
+a{
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.top{
+	width: 100%;
+	height: 90px;
+}
+.center{
+	width: 1050px;
+	margin:0 auto;
+}
+.top .box{
+	height: 40px;
+}
+.top .box1{
+	height: 50px;
+	width:324px;
+	float:left;
+	background: url("../img01/sprite.png") no-repeat 0px 0px;
+	background-size: 242%;
+}
+.top .box2{
+	height: 50px;
+	width:460px;
+	float:right;
+	background-size: 242%;
+	background: url("../img01/sprite.png") no-repeat -311px 21px;
+}
+.top2{
+	width: 100%;
+	height: 557px;
+	margin-top: 45px;
+}
+.top2 .box{
+	width:1050px;
+	height: 557px;
+	background: url("../img01/54a2bd03362a4a0cba15d38e041e329b.jpg") no-repeat;
+	background-size: 100%;
+}
+.top2 .box .box1{
+	width: 340px;
+	height: 390px;
+	margin-right: 50px;
+	margin-top: 40px; 
+	float:right;
+}
+.top2 p{
+	margin-bottom: 15px;
+}
+.top2 .box1 input{
+	width: 250px;
+	height: 40px;
+	border:1px solid #b2b2b2;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-bottom:25px; 
+}
+.top2 .box1 button{
+	width: 140px;
+	height: 40px;
+	color:#fff;
+	font-size:15px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	background: #f10180;
+	margin-bottom: 18px;
+}
+.top2 .box1 .duoxuan{
+	width: 16px;
+	height: 19px;
+	float: left;
+	margin-right: 9px;
+}
+.top2 .box1 a{
+	font-size: 13px;
+	color:#666;
+	float: left;
+}
+.top2 .box2{
+	height: 19px;
+	width: 120px;
+	float:right;
+	line-height: 19px;
+	margin-right: 66px;
+}
+.top2 .box1 .box2 span{
+	font-size: 13px;
+	float:left;
+	color:#c3b3c3;
+}
+.top2 .box1 .box2 .zi:hover{
+	color:#f10180;
+}
+.top2 .box1 .box2 .zi{
+	color:#666;
+}
+.top2 .box1 .box2 .zi2{
+	color:#f10180;
+}
+.top2 .box3{
+	width: 262px;
+	height: 50px;
+	float:left;
+	margin-top: 25px;
+	margin-right: 63px;
+	cursor:pointer;
+}
+.top2 .box3 p{
+	font-size: 11px;
+	color: #666666;
+	margin-bottom: 8px;
+}
+.top2 .box3 .box3-1{
+	width: 24px;
+	height: 24px;
+	float: left;
+	background: url("../img01/sprite.png") no-repeat -266px -52px;
+	background-size: 700px;
+	margin-right: 5px;
+}
+.top2 .box3 .box3-1:hover{
+	cursor:pointer; 
+	background-position: -241px -52px;
+}
+.top2 .box3 .box3-2{
+	width: 24px;
+	height: 24px;
+	float: left;
+	background: url("../img01/sprite.png") no-repeat -216px -52px;
+	background-size: 700px;
+	margin-right: 5px;
+}
+.top2 .box3 .box3-2:hover{
+	cursor:pointer; 
+	background-position: -319px -52px;
+}
+.top2 .box3 .box3-3{
+	width: 24px;
+	height: 24px;
+	float: left;
+	background: url("../img01/sprite.png") no-repeat -164px -52px;
+	background-size: 700px;
+	margin-right: 5px;
+}
+.top2 .box3 .box3-3:hover{
+	cursor:pointer; 
+	background-position: -138px -52px;
+}
+.top2 .box3 .box3-4{
+	width: 24px;
+	height: 24px;
+	float: left;
+	background: url("../img01/sprite.png") no-repeat -189px -52px;
+	background-size: 700px;
+	margin-right: 5px;
+}
+.top2 .box3 .box3-4:hover{
+	cursor:pointer; 
+	background-position: -292px -52px;
+}
+.top2 .box4{
+	width: 262px;
+	height: 0px;
+	overflow: hidden;
+}
+.top2 .box5{
+	width: 262px;
+	height: 34px;
+	overflow: hidden;
+}
+.top2 .box4 li{
+	float: left;
+	text-align: center;	
+	position: relative;
+	padding:0px 13px;
+}
+.top2 .box4 li:hover a{
+	color:#f10180;
+}
+.top3{
+	height: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+.top3 p{
+	color:#767074;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+

@@ -1,0 +1,316 @@
+*{margin:0px;padding:0px;border:0px;}
+p{
+	font-family: "微软雅黑";
+}
+a{
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.top{
+	width: 100%;
+	height: 90px;
+}
+.center{
+	width: 1050px;
+	margin:0 auto;
+}
+.top .box{
+	height: 40px;
+}
+.top .box1{
+	height: 50px;
+	width:324px;
+	float:left;
+	background: url("../img01/sprite.png") no-repeat 0px 0px;
+	background-size: 242%;
+}
+.top .box2{
+	height: 50px;
+	width:460px;
+	float:right;
+	background-size: 242%;
+	background: url("../img01/sprite.png") no-repeat -311px 21px;
+}
+.top2{
+	width: 100%;
+	height: 557px;
+	margin-top: 45px;
+}
+.top2 .box{
+	width:1050px;
+	height: 557px;
+	background: url("../img01/54a2bd03362a4a0cba15d38e041e329b.jpg") no-repeat;
+	background-size: 100%;
+}
+.top2 .box .box1{
+	width: 340px;
+	height: 390px;
+	margin-right: 50px;
+	margin-top: 40px; 
+	float:right;
+	overflow: hidden;
+	cursor:pointer;
+	position: relative;
+	
+}
+.top2 .box .box1 .zi4{
+	font-size: 12px;	
+	float: left;
+}
+.top2 .zi1{
+	margin-right: 79px;
+	margin-bottom: 15px;
+	float: right;
+}
+.top2 .zi1 a{
+	color:#f10180;
+}
+.top2 .box1 input{
+	width: 250px;
+	height: 33px;
+	border:1px solid #b2b2b2;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-bottom:25px; 
+}
+.top2 .box1 .boxsj{
+	width: 150px;
+	height: 33px;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	border:1px solid #ccc;
+	background:#ffeec3;
+	text-align: center;
+	line-height: 33px;
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+.top2 .box1 .boxm1{
+	width: 150px;
+	height: 33px;
+	position: absolute;
+	top:58px;
+	left: 0px;
+	border:1px solid #ccc;
+	background:#ffeec3;
+	text-align: center;
+	line-height: 33px;
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+.top2 .box1 .boxm2{
+	width: 150px;
+	height: 33px;
+	position: absolute;
+	top:117px;
+	left: 0px;
+	border:1px solid #ccc;
+	background:#ffeec3;
+	text-align: center;
+	line-height: 33px;
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+.top2 .box1 .boxm3{
+	width: 57px;
+	height: 33px;
+	position: absolute;
+	top:151px;
+	left: 264px;
+	border:1px solid #ccc;
+	background:#ffeec3;
+	text-align: center;
+	line-height: 33px;
+	color: red;
+	font-size: 12px;
+	border-radius: 5px;
+	display: none;
+}
+.top2 .box1 button{
+	width: 140px;
+	height: 40px;
+	color:#fff;
+	font-size:15px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	background: #f10180;
+	margin-bottom: 18px;
+}
+.top2 .box1 .duoxuan{
+	width: 16px;
+	height: 19px;
+	margin-right: 9px;
+	float: left;
+}
+.top2 .box1 .tiao{
+	float: right;
+	display:block;
+	font-size: 12px;
+	color:#1d94d1;
+	margin-top: 22px;
+	margin-right: 76px;
+}
+.top2 .box1 .zi{
+	font-size: 12px;
+	color:#4c4c4c;
+	float:left;
+}
+.top2 .box1 .zi a{
+	color:#ff0000;
+}
+
+
+.top2 .box .box3{
+	width: 340px;
+	height: 390px;
+	margin-right: 50px;
+	margin-top: 40px; 
+	float:right;
+	overflow: hidden;
+	position: relative;
+	display:none;
+}
+.top2 .box .box3 .zi4{
+	font-size: 12px;
+	float: left;
+}
+.top2 .zi1{
+	font-size: 12px;
+	margin-right: 79px;
+	margin-bottom: 15px;
+	float: right;
+}
+.top2 .zi1 a{
+	color:#f10180;
+}
+.top2 .box3 input{
+	width: 250px;
+	height: 33px;
+	border:1px solid #b2b2b2;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin-bottom:25px; 
+}
+.top2 .box3 .boxyx{
+	width: 150px;
+	height: 33px;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	border:1px solid #ccc;
+	background:#ffeec3;
+	text-align: center;
+	line-height: 33px;
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+.top2 .box3 .boxm1{
+	width: 150px;
+	height: 33px;
+	position: absolute;
+	top:58px;
+	left: 0px;
+	border:1px solid #ccc;
+	background:#ffeec3;
+	text-align: center;
+	line-height: 33px;
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+.top2 .box3 .boxm2{
+	width: 150px;
+	height: 33px;
+	position: absolute;
+	top:117px;
+	left: 0px;
+	border:1px solid #ccc;
+	background:#ffeec3;
+	text-align: center;
+	line-height: 33px;
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+.top2 .box3 .boxm3{
+	width: 57px;
+	height: 33px;
+	position: absolute;
+	top:151px;
+	left: 264px;
+	border:1px solid #ccc;
+	background:#ffeec3;
+	text-align: center;
+	line-height: 33px;
+	color: red;
+	font-size: 12px;
+	border-radius: 5px;
+	display: none;
+}
+.top2 .box3 .boxsj{
+	width: 150px;
+	height: 33px;
+	position: absolute;
+	top:177px;
+	left: 0px;
+	border:1px solid #ccc;
+	background:#ffeec3;
+	text-align: center;
+	line-height: 33px;
+	color: red;
+	font-size: 12px;
+	display: none;
+}
+.top2 .box3 button{
+	width: 140px;
+	height: 40px;
+	color:#fff;
+	font-size:15px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	background: #f10180;
+	margin-bottom: 18px;
+}
+.top2 .box3 .duoxuan{
+	width: 16px;
+	height: 19px;
+	margin-right: 9px;
+	float: left;
+}
+.top2 .box3 .tiao{
+	float: right;
+	display:block;
+	font-size: 12px;
+	color:#1d94d1;
+	margin-top: 22px;
+	margin-right: 76px;
+}
+.top2 .box3 .zi{
+	font-size: 12px;
+	color:#4c4c4c;
+	float:left;
+}
+.top2 .box3 .zi a{
+	color:#ff0000;
+}
+.top3{
+	height: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+.top3 p{
+	color:#767074;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+
